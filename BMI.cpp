@@ -14,14 +14,14 @@ float BMI::BMI_get(){
 	return BMI;
 }
 void BMI::BMI_attribute(){	
-	if(bmi<15)level="Very severely underweight";
-	if(bmi<16&&bmi>=15)level="Severely underweight";
-	if(bmi<18.5&&bmi>=16)level="Underweight";
-	if(bmi<25&&bmi>=18.5)level="Normal";
-	if(bmi<30&&bmi>=25)level="Overweight";
-	if(bmi<35&&bmi>=30)level="Obese Class I(Moderately obese)";
-	if(bmi<40&&bmi>=35)level="Obese Class II(Severely obese)";
-	if(bmi>=40)level="Obese Class III(Very severely obese)";
+	if(BMI<15)level="Very severely underweight";
+	if(BMI<16&&BMI>=15)level="Severely underweight";
+	if(BMI<18.5&&BMI>=16)level="Underweight";
+	if(BMI<25&&BMI>=18.5)level="Normal";
+	if(BMI<30&&BMI>=25)level="Overweight";
+	if(BMI<35&&BMI>=30)level="Obese Class I(Moderately obese)";
+	if(BMI<40&&BMI>=35)level="Obese Class II(Severely obese)";
+	if(BMI>=40)level="Obese Class III(Very severely obese)";
 }
 string BMI::Level(){
 	return level;

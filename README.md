@@ -1,2 +1,2 @@
 compile: make
-execute: ./BMI
+execute: ./lab2
